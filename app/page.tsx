@@ -1,7 +1,8 @@
 import React from 'react'
 import Hero from './_components/Hero'
 import { FloatingNav } from '@/components/ui/FloatingNav'
-import { Home } from 'lucide-react'
+import {Home } from 'lucide-react'
+import Grid from './_components/Grid'
 
 const page = () => {
   return (
@@ -13,6 +14,7 @@ const page = () => {
           ]}
           />
          <Hero/>
+         <Grid/>
         </div>
     </main>
   )
