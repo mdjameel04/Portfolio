@@ -30,7 +30,7 @@ const Hero = () => {
           </h2>
         <TextGenerateEffect
         className=''
-        words=' Transforming concepts into Seamless Experiences'
+        words=' Transforming concepts into Seamless User Experiences'
         duration={2}
         />
         <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl" > Hi I&apos;m jameel , a full Stack developer</p>
