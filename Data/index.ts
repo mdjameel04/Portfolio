@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "My tech stack and tools",
+    title: "I believe good communication builds great products",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,7 +28,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
+    title: "My tech stack and tools",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",

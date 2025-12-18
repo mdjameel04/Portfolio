@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from './_components/Hero'
 import { FloatingNav } from '@/components/ui/FloatingNav'
-import {Home } from 'lucide-react'
+import {Home, House } from 'lucide-react'
 import Grid from './_components/Grid'
 
 const page = () => {
@@ -10,7 +10,8 @@ const page = () => {
         <div className='max-w-7xl w-full'>
           <FloatingNav
           navItems={[
-            {name: "Home", link:"/", icon: <Home/> }
+            {name: "Home", link:"/", icon: <House/> }
+ 
           ]}
           />
          <Hero/>
