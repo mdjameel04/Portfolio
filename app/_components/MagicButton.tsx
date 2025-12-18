@@ -9,8 +9,12 @@ import React from "react";
  *  remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50
  */
 const MagicButton = ({
-  title,icon,position,handleClick, otherClasses,}: 
-  {
+  title,
+  icon,
+  position,
+  handleClick,
+  otherClasses,
+}: {
   title: string;
   icon: React.ReactNode;
   position: string;
