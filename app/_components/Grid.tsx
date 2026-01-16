@@ -21,8 +21,7 @@ const Grid = () => {
             >
         </BentoGridItem>
     ))}
-      
-  
+
 </BentoGrid>
     </section>
   )
