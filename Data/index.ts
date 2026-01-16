@@ -1,3 +1,6 @@
+import { link } from "fs";
+import { a } from "motion/react-client";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -201,17 +204,19 @@ export const projects = [
 //   },
 // ];
 
-// export const socialMedia = [
-//   {
-//     id: 1,
-//     img: "/git.svg",
-//   },
-//   {
-//     id: 2,
-//     img: "/twit.svg",
-//   },
-//   {
-//     id: 3,
-//     img: "/link.svg",
-//   },
-// ];
+export const socialMedia = [
+  {
+    id: 1,
+    img: "/git.svg",
+     link : "https://github.com/"
+  },
+  {
+    id: 2,
+    img: "/twit.svg",
+  },
+  {
+    id: 3,
+    img: "/link.svg",
+    link: "https://www.linkedin.com/feed/"
+  },
+];

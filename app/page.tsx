@@ -1,10 +1,12 @@
 import React from 'react'
 import Hero from './_components/Hero'
 import { FloatingNav } from '@/components/ui/FloatingNav'
-import {navItems} from '@/Data/index'
+import {navItems} from '@/Data'
 import {Home, House } from 'lucide-react'
 import Grid from './_components/Grid'
 import ProjectSection from './_components/ProjectSection'
+import TechstackSection from './_components/TechstackSection'
+import Footer from './_components/Footer'
 
 
 const page = () => {
@@ -17,7 +19,8 @@ const page = () => {
          <Hero/>
          <Grid/>
         <ProjectSection/>
-        
+        <TechstackSection/>
+        <Footer/>
         </div>
     </main>
   )
