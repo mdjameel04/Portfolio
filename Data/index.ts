@@ -1,10 +1,10 @@
 import { link } from "fs";
-import { a } from "motion/react-client";
+import { a, img } from "motion/react-client";
 
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Techtools", link: "#Techtools" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -220,3 +220,54 @@ export const socialMedia = [
     link: "https://www.linkedin.com/feed/"
   },
 ];
+
+export const Techtools = [
+  {
+    id: 1,
+    name: "React",
+    img : "/re.svg", 
+    level : "Intermediate"
+  },
+  {
+    id: 2,
+    name: "Next.js",
+    img : "/next.svg", 
+    level : "Intermediate"
+  },
+  {
+    id: 3,
+    name: "Tailwind.css",
+    img : "/tail.svg", 
+    level : "Intermediate"
+  },
+  {
+    id: 3,
+    name: "TypeScript",
+    img : "/ts.svg", 
+    level : "Intermediate"
+  },
+    {
+    id: 4,
+    name: "JavaScript",
+    img : "/ts.svg", 
+    level : "Intermediate"
+  },
+    {
+    id: 5,
+    name: "Git  -Hub",
+    img : "/git.svg", 
+    level : "Intermediate"
+  },
+    {
+    id: 6,
+    name: "",
+    img : "/git.svg", 
+    level : "Intermediate"
+  },
+    {
+    id: 5,
+    name: "Gith-Hub",
+    img : "/git.svg", 
+    level : "Intermediate"
+  },
+]
